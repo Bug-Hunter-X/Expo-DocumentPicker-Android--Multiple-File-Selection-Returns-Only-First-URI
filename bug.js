@@ -1,0 +1,1 @@
+This bug occurs when using the Expo DocumentPicker API on Android.  When selecting multiple files, only the first file's URI is returned, while the other URIs are missing. This is inconsistent with the iOS behavior and the documentation, which implies that multiple file selections should return all URIs.
